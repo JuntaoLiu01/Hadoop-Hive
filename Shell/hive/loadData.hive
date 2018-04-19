@@ -1,0 +1,8 @@
+LOAD DATA LOCAL INPATH "/opt/TPC-H_on_Hive/data/nation.tbl" INTO TABLE NATION;
+LOAD DATA LOCAL INPATH "/opt/TPC-H_on_Hive/data/region.tbl" INTO TABLE REGION;
+LOAD DATA LOCAL INPATH "/opt/TPC-H_on_Hive/data/part.tbl" INTO TABLE PART;
+LOAD DATA LOCAL INPATH "/opt/TPC-H_on_Hive/data/supplier.tbl" INTO TABLE SUPPLIER;
+LOAD DATA LOCAL INPATH "/opt/TPC-H_on_Hive/data/partsupp.tbl" INTO TABLE PARTSUPP;
+LOAD DATA LOCAL INPATH "/opt/TPC-H_on_Hive/data/customer.tbl" INTO TABLE CUSTOMER;
+LOAD DATA LOCAL INPATH "/opt/TPC-H_on_Hive/data/orders.tbl" INTO TABLE ORDERS;
+LOAD DATA LOCAL INPATH "/opt/TPC-H_on_Hive/data/lineitem.tbl" INTO TABLE LINEITEM;
